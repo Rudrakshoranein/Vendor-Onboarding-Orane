@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaada</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="welcome.html"
+              ><img src="images/oranelogo.png" alt="" height="41"
+            /></a>
+          </div>
+
+          <div class="col-md-5 ms-auto invites_log">
+            <div class="invites">
+              <a href="vendor_successfully-onboarding.html"
+                ><span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-layout-text-window"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 6.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"
+                    />
+                    <path
+                      d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v1H1V2a1 1 0 0 1 1-1zm1 3v10a1 1 0 0 1-1 1h-2V4zm-4 0v11H2a1 1 0 0 1-1-1V4z"
+                    /></svg
+                ></span>
+                Dashboard
+              </a>
+            </div>
+
+            <div class="invites">
+              <a href="#"
+                ><span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-envelope"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                    /></svg
+                ></span>
+                Invites
+              </a>
+            </div>
+
+            <div class="notification">
+              <a
+                class="dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-bell-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+                  />
+                </svg>
+
+                <div class="circle">3</div>
+              </a>
+
+              <div class="dropdown">
+                <div class="notifications dropdown-menu">
+                  <div class="notifications_heading justify-content-between">
+                    Notifications
+
+                    <span>4 New</span>
+                  </div>
+
+                  <div class="notifications_inside">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          >We are pleased to inform you that your submitted
+                          documents have been</a
+                        >
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 30 Min Ago
+                        </div>
+                      </li>
+
+                      <li>
+                        <a href="#"
+                          >We are pleased to inform you that your submitted
+                          documents have been</a
+                        >
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 47 Min Ago
+                        </div>
+                      </li>
+
+                      <li>
+                        <a href="#"
+                          >We are pleased to inform you that your submitted
+                          documents have been</a
+                        >
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 1 Day Ago
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="user_box">
+              <img src="images/profile_pic.png" alt="" />
+              <a
+                class="dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ajay Singh
+              </a>
+
+              <div class="dropdown">
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="account.html">Profile </a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+
+                  <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 left_menu">
+            <ul>
+              <li><a href="#">Bidding Participation</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">My Orders</a></li>
+              <li><a href="#">My Dispatch</a></li>
+              <li><a href="#">Gate Entry</a></li>
+              <li><a href="#">GRC</a></li>
+              <li><a href="#">Accounts</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-10">
+            <div class="heading_search_outer">
+              <div class="main_heading"><h1>Profile</h1></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="account_box">
+                  <div class="account_hd">Business and Contact Information</div>
+
+                  <div class="account_in justify-content-between">
+                    <div class="card mb-3 card_change">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Category</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">Electrical</div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Business Name</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            PowerGrid Electrical
+                          </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">PAN Card No</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">FDAPK0517A</div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">GSTIN No.</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            24AAACC1206D1ZM
+                          </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">GSTIN State</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">Delhi</div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Email ID</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            ajay.singh@gmail.com
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Mobile Number</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            +91 87654 32109
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">MSME Status</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            Yes, GH1235J
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card mb-3 card_change">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Address</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            1005 | 10th Floor Arunachal Building, Connaught
+                            Lane, Barakhamba, New Delhi, Delhi 110001
+                          </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Organisation Chart</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> organisation_chart.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Business Nature/Type</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">Partnership</div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Quality Policy</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> quality_policy.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Others</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            Award Winning Technology Support
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Vendor Registration Form</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Vendor_Registration_Form.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Add Attachment</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> xyz_file.pdf </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="account_box">
+                  <div class="account_hd">
+                    Financial, Tax, and Operational Information
+                  </div>
+
+                  <div class="account_in justify-content-between">
+                    <div class="card mb-3 card_change">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">ITR (Past 2 Years)</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> itr.pdf </a>
+                          </div>
+                        </div>
+                        <hr />
+
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Turnover</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">30 lakh</div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              Projects Values (Past Order : Min.3 from past 3
+                              years)
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">3</div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Customer Appreciation Letter</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> customer_appreciation.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Present Order</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> order.pdf </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card mb-3 card_change">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Account Holder Name</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">Ajay Singh</div>
+                        </div>
+                        <hr />
+
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Bank Account Number</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">22342343764</div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Bank Name</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">HDFC Bank</div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Bank Branch Address</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">Delhi</div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">IFSC Code of Branch</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">HDFC000543</div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Bank Country</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">India</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="account_box">
+                  <div class="account_hd">
+                    Technical, Compliance, and Quality Assurance Documentation
+                  </div>
+
+                  <div class="account_in justify-content-between">
+                    <div class="card mb-3 card_change">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              Production Capacity (Monthly/Yearly)
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            Monthly 3435
+                          </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Shop Floor Area</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            500 square meters
+                          </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Manufacturing Capacity</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            10,000 units
+                          </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Manufacturing Facilities</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Manufacturing_facilities.pdf </a>
+                          </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">List of Manpower</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> List-Manpower.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">List of Equipments</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> List-Equipments.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              Testing Facilities Available at Vendor Works
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Testing-Facilities-Works.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              Similar Nature of Jobs (Min. 3 Cases Along with
+                              Years )
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Nature-Jobs.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Control of Internal Process</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Internal-Process.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                      </div>
+                    </div>
+
+                    <div class="card mb-3 card_change">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Quality Assurance Plan (QAP)</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Quality-Assurance-Plan.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Process Flow Chart</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Process-Flow-Chart.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Commitment to Quality</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Commitment-Quality.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              Supplies of Module Mounting Structure (5 Years)
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Supplies-Module.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">ISO Certification</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> ISO-Certification.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">Packing &amp; Marking</h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Packing-Marking.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              List of Product Range with Raw Material Grade
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> List-Product.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              Complaint Resolution &amp; Result
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Complaint-Result.pdf </a>
+                          </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h6 class="mb-0">
+                              Customer Complaints (Last 5 Years)*
+                            </h6>
+                          </div>
+                          <div class="col-sm-7 text-secondary">
+                            <img src="images/pdf.png" alt="" />
+                            <a href="#"> Customer-Complaints.pdf </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="top_remove">2024 Avaada Group . All Rights Reserved.</footer>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

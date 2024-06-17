@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaada</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    /> -->
+  </head>
+  <body style="background-color: white">
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="welcome.html"
+              ><img src="images/oranelogo.png" alt="" height="41"
+            /></a>
+          </div>
+
+          <div class="col-md-3 ms-auto invites_log">
+            <div class="invites">
+              <a href="invite.html"
+                ><span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-envelope"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                    /></svg
+                ></span>
+                Invites
+              </a>
+            </div>
+
+            <div class="notification">
+              <a
+                class="dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-bell-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+                  />
+                </svg>
+
+                <div class="circle">3</div>
+              </a>
+
+              <div class="dropdown">
+                <div class="notifications dropdown-menu">
+                  <div class="notifications_heading justify-content-between">
+                    Notifications
+
+                    <span>4 New</span>
+                  </div>
+
+                  <div class="notifications_inside">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          >We are pleased to inform you that your submitted
+                          documents have been</a
+                        >
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 30 Min Ago
+                        </div>
+                      </li>
+
+                      <li>
+                        <a href="#"
+                          >We regret to inform you that some of the documents
+                          submitted do</a
+                        >
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 47 Min Ago
+                        </div>
+                      </li>
+
+                      <li>
+                        <a href="#">Thank you for submitting your documents</a>
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 1 Day Ago
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="user_box">
+              <img src="images/profile_pic.png" alt="" />
+
+              <a
+                class="dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ajay Singh
+              </a>
+
+              <div class="dropdown">
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="account.html">Profile </a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 left_menu">
+            <ul>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Project</a></li>
+              <li><a href="#">Vendor</a></li>
+              <li><a href="#">RFQ</a></li>
+              <li><a href="#">Report</a></li>
+              <li><a href="#">Logout</a></li>
+              <!-- <li><a href="#">Accounts</a></li> -->
+            </ul>
+          </div>
+          <div class="col-md-10">
+            <div class="heading_search_outer">
+              <div class="main_heading d-flex justify-content-between">
+                <div class="heading_vendor_name">
+                  <h1>Vendors Details</h1>
+                </div>
+
+                <div class="date_download">
+                  <div class="latest_date">
+                    Latest Modification Date:<span> 04/12/2023</span>
+                  </div>
+
+                  <div class="download_btn">
+                    <a
+                      class="dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-download"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
+                        />
+                        <path
+                          d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"
+                        />
+                      </svg>
+                      Download
+                    </a>
+
+                    <div class="dropdown">
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              fill="currentColor"
+                              class="bi bi-arrow-right-short"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                              />
+                            </svg>
+                            Download All
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              fill="currentColor"
+                              class="bi bi-arrow-right-short"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                              />
+                            </svg>
+                            Donwload Manually</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="vendor_name_status">
+              <div class="vendor_name">
+                Vendor Name<br />
+
+                <span> Orane Pvt. Ltd.</span>
+              </div>
+
+              <div class="vendor_status_main justify-content-between ms-auto">
+                <div class="row bs-wizard">
+                  <div class="col-xs-2 bs-wizard-step complete">
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot">
+                      <img src="images/check.png" alt=""
+                    /></a>
+                    <div class="bs-wizard-info text-center">Profile</div>
+                  </div>
+
+                  <div class="col-xs-2 bs-wizard-step disabled">
+                    <!-- active -->
+
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot">2</a>
+                    <div class="bs-wizard-info text-center">Financial</div>
+                  </div>
+
+                  <div class="col-xs-2 bs-wizard-step disabled">
+                    <!-- active -->
+
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot">3</a>
+                    <div class="bs-wizard-info text-center">Factory Visit</div>
+                  </div>
+
+                  <div class="col-xs-2 bs-wizard-step disabled">
+                    <!-- active -->
+
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot">4</a>
+                    <div class="bs-wizard-info text-center">Final Rating</div>
+                  </div>
+
+                  <div class="col-xs-2 bs-wizard-step disabled">
+                    <!-- active -->
+
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot">5</a>
+                    <div class="bs-wizard-info text-center">Approval</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="business_financial_technical_tabs">
+              <div class="one_two_main">
+                <div class="one_div">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item cus_li" role="presentation">
+                      <button
+                        class="nav-link active"
+                        id="pills-home-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-home"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-home"
+                        aria-selected="true"
+                      >
+                        Business and Contact Information
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="pills-profile-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-profile"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-profile"
+                        aria-selected="false"
+                      >
+                        Financial, Tax, and Operational Information
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="pills-contact-tab"
+                        data-bs-toggle="pill"
+                        data-bs-target="#pills-contact"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-contact"
+                        aria-selected="false"
+                      >
+                        Technical, Compliance, and Quality Assurance
+                        Documentation
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="approve_hold_reject">
+                  <div class="approve_button justify-content-end">
+                    <button type="button" class="btn btn-light">
+                      Approve Profile
+                    </button>
+                    <button type="button" class="btn btn-light">Hold</button>
+                    <button type="button" class="btn btn-light">Reject</button>
+                  </div>
+
+                  <div class="assigned_to justify-content-end">
+                    <label class="mb-1 text-dark">Assigned to: </label>
+
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected="">Select</option>
+                      <option value="1">Select</option>
+                      <option value="2">Select</option>
+                      <option value="3">Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active d-flex"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                  tabindex="0"
+                >
+                  <div class="business_view_details">
+                    <div class="white_box_2">
+                      <div class="card mb-3 card_change">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Category</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              Technology
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Business Name</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              PowerGrid Electrical
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">PAN Card No</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              FDAPK0517A
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">GSTIN No.</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              24AAACC1206D1ZM
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">GSTIN State</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">Delhi</div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Email ID</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              arjun.sharma@gmail.com
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Mobile Number</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              +91 87654 32109
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">MSME Status</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              Yes, GH1235J
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="white_box_2">
+                      <div class="card mb-3 card_change">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Address</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              1005 | 10th Floor Arunachal Building, Connaught
+                              Lane, Barakhamba, New Delhi, Delhi 110001
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Organisation Chart</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              <img src="images/pdf.png" alt="" />
+                              <a href="#"> organisation_chart.pdf </a>
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Business Nature/Type</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              Partnership
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Quality Policy</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              <img src="images/pdf.png" alt="" />
+                              <a href="#"> quality_policy.pdf </a>
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Others</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              Award Winning Technology Support
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Vendor Registration Form</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              <img src="images/pdf.png" alt="" />
+                              <a href="#"> Vendor_Registration_Form.pdf </a>
+                            </div>
+                          </div>
+
+                          <hr />
+                          <div class="row">
+                            <div class="col-sm-5">
+                              <h6 class="mb-0">Add Attachment</h6>
+                            </div>
+                            <div class="col-sm-7 text-secondary">
+                              <img src="images/pdf.png" alt="" />
+                              <a href="#"> xyz_file.pdf </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                  tabindex="0"
+                >
+                  2
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                  tabindex="0"
+                >
+                  3
+                </div>
+              </div>
+            </div>
+            <div class="space"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="top_remove">2024 Avaada Group . All Rights Reserved.</footer>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaada</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="welcome.html"
+              ><img src="images/oranelogo.png" alt="" height="41"
+            /></a>
+          </div>
+
+          <div class="col-md-5 ms-auto invites_log">
+            <div class="invites">
+              <a href="vendor_successfully-onboarding.html"
+                ><span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-layout-text-window"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 6.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"
+                    />
+                    <path
+                      d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v1H1V2a1 1 0 0 1 1-1zm1 3v10a1 1 0 0 1-1 1h-2V4zm-4 0v11H2a1 1 0 0 1-1-1V4z"
+                    /></svg
+                ></span>
+                Dashboard
+              </a>
+            </div>
+
+            <div class="invites">
+              <a href="#"
+                ><span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-envelope"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                    /></svg
+                ></span>
+                Invites
+              </a>
+            </div>
+
+            <div class="notification">
+              <a
+                class="dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-bell-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+                  />
+                </svg>
+
+                <div class="circle">3</div>
+              </a>
+
+              <div class="dropdown">
+                <div class="notifications dropdown-menu">
+                  <div class="notifications_heading justify-content-between">
+                    Notifications
+
+                    <span>4 New</span>
+                  </div>
+
+                  <div class="notifications_inside">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          >We are pleased to inform you that your submitted
+                          documents have been</a
+                        >
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 30 Min Ago
+                        </div>
+                      </li>
+
+                      <li>
+                        <a href="#"
+                          >We regret to inform you that some of the documents
+                          submitted do</a
+                        >
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 47 Min Ago
+                        </div>
+                      </li>
+
+                      <li>
+                        <a href="#">Thank you for submitting your documents</a>
+                        <div class="time_outer">
+                          <img src="images/time.png" alt="" /> 1 Day Ago
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="user_box">
+              <img src="images/profile_pic.png" alt="" />
+              <a
+                class="dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ajay Singh
+              </a>
+
+              <div class="dropdown">
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="account.html">Profile </a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 left_menu">
+            <ul>
+              <li><a href="#">Bidding Participation</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">My Orders</a></li>
+              <li><a href="#">My Dispatch</a></li>
+              <li><a href="#">Gate Entry</a></li>
+              <li><a href="#">GRC</a></li>
+              <li><a href="#">Accounts</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-10">
+            <div class="heading_search_outer">
+              <div class="main_heading"><h1>Invites</h1></div>
+
+              <div class="search_filter_outer ms-auto">
+                <div class="search_main">
+                  <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                      <input
+                        type="text"
+                        class="form-control input-lg"
+                        placeholder="Search here"
+                      />
+                      <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                          <span class="glyphicon glyphicon-search"
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              fill="currentColor"
+                              class="bi bi-search"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                              /></svg
+                          ></span>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filter_main">
+                  <button>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-funnel"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2z"
+                        /></svg
+                    ></span>
+                    Filter
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="listing_main" style="overflow-x: scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th class="sortable">Project Name</th>
+                    <th class="sortable">Project Category</th>
+                    <th class="sortable">Bidding Date</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+
+                    <td>OceanBlue Innovations</td>
+                    <td>Electrical</td>
+                    <td>13/1/2024</td>
+                    <td class="status-buttons">
+                      <a href="#" class="view-button">View</a>
+                      <a href="#" class="bidding-button">Bidding</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>TrendTrove Express</td>
+                    <td>Civil</td>
+                    <td>15/1/2024</td>
+                    <td class="status-buttons">
+                      <a href="#" class="view-button">View</a>
+                      <a href="#" class="bidding-button">Bidding</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>InstaBuy Hub</td>
+                    <td>Mechanical</td>
+                    <td>16/1/2024</td>
+                    <td class="status-buttons">
+                      <a href="#" class="view-button">View</a>
+                      <a href="#" class="bidding-button">Bidding</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>BioFit Connect</td>
+                    <td>Instrumentation</td>
+                    <td>18/1/2024</td>
+                    <td class="status-buttons">
+                      <a href="#" class="view-button">View</a>
+                      <a href="#" class="bidding-button">Bidding</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>VitaWell Tracker</td>
+                    <td>Consultants</td>
+                    <td>20/1/2024</td>
+                    <td class="status-buttons">
+                      <a href="#" class="view-button">View</a>
+                      <a href="#" class="bidding-button">Bidding</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>DataHarbor Hub</td>
+                    <td>Consultants</td>
+                    <td>19/1/2024</td>
+                    <td class="status-buttons">
+                      <a href="#" class="view-button">View</a>
+                      <a href="#" class="bidding-button">Bidding</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>Quantum Nexus</td>
+                    <td>Consultants</td>
+                    <td>21/1/2024</td>
+                    <td class="status-buttons">
+                      <a href="#" class="view-button">View</a>
+                      <a href="#" class="bidding-button">Bidding</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="pagination_outer">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">«</span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">»</span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="top_remove">2024 Avaada Group . All Rights Reserved.</footer>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
